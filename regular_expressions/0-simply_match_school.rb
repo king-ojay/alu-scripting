@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
-# "this piece of code mathes the word Holberton"
+#This code matches "Holberton"
 
 puts ARGV[0].scan(/School/).join
