@@ -2,6 +2,8 @@
 """Doc"""
 
 import requests
+
+
 def count_words(subreddit, word_list, after="", words_count={}):
     """"Doc"""
     url = "https://www.reddit.com/r/{}/hot.json?limit=100" \
